@@ -1,4 +1,4 @@
-enum LogLevel: Comparable {
+public enum LogLevel: Comparable {
     case debug
     case info
     case notice

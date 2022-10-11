@@ -2,10 +2,10 @@ import Foundation
 
 // MARK: - Properties
 
-struct FTLogger {
+public struct FTLogger {
     private let saveToFileLevelOrMoreSevere: LogLevel
     private let logFileURL: URL?
-    let logFileHandler: LogFileHandler?
+    internal let logFileHandler: LogFileHandler?
     private var timestampFormatter: DateFormatter
 
     private static var defaultTimestampFormatter: DateFormatter {
