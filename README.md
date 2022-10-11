@@ -39,7 +39,7 @@ To log you can use predefined functions with log level (which is then visible in
 FTLogger.info("Your message or objects to be logged")
 FTLogger.fault("An error happened")
 
-FTLogger.log(level: .notice, "Messega with notice level")
+FTLogger.log(level: .notice, "Message with notice level")
 ```
 The first logs with info log level and the latter fault. You can also specifiy which level you want to log with general log function.
 
